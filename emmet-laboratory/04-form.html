@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <label for="studentid">Student ID:</label>
+        <input type="text" id="studentid" name="studentid">
+
+        <br><br>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option>BS Information Technology</option>
+            <option>BS Computer Science</option>
+            <option>BS Information Systems</option>
+        </select>
+
+        <br><br>
+
+        <p>Hobbies:</p>
+        <input type="checkbox" id="dancing" name="hobbies" value="Dancing">
+        <label for="dancing">Dancing</label>
+
+        <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
+        <label for="gaming">Playing Video Games</label>
+
+        <input type="checkbox" id="watching" name="hobbies" value="Watching">
+        <label for="watching">Watching Videos</label>
+
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
